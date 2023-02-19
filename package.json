@@ -1,9 +1,9 @@
 {
-  "name": "涂鸦扩散",
-  "description": "使用 AI 将您的草图转换为精致的图像",
-  "appName": "涂鸦扩散",
-  "appSubtitle": "使用 AI 将您的草图转换为精致的图像",
-  "appMetaDescription": "使用 AI 将您的草图转换为精致的图像",
+  "name": "scribble-diffusion",
+  "description": "Turn your sketch into a refined image using AI",
+  "appName": "Scribble Diffusion",
+  "appSubtitle": "Turn your sketch into a refined image using AI",
+  "appMetaDescription": "Turn your sketch into a refined image using AI",
   "version": "1.0.0",
   "private": true,
   "scripts": {
