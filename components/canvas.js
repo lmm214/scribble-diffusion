@@ -48,7 +48,7 @@ export default function Canvas({
       {scribbleExists || (
         <div>
           <div className="absolute grid w-full h-full p-3 place-items-center pointer-events-none text-xl">
-            <span className="opacity-40">Draw something here.</span>
+            <span className="opacity-40">试试在这儿画些东西吧！</span>
           </div>
         </div>
       )}
@@ -66,11 +66,11 @@ export default function Canvas({
         <div className="animate-in fade-in duration-700 text-left">
           <button className="lil-button" onClick={undo}>
             <UndoIcon className="icon" />
-            Undo
+            撤销
           </button>
           <button className="lil-button" onClick={reset}>
             <TrashIcon className="icon" />
-            Clear
+            清空
           </button>
         </div>
       )}
