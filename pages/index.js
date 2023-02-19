@@ -80,17 +80,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>{pkg.appName}</title>s
+        <title>涂鸦扩散（ Scribble Diffusion ）</title>s
       </Head>
       <main className="container max-w-[1024px] mx-auto p-5 ">
         <div className="container max-w-[512px] mx-auto">
           <hgroup>
-            <h1 className="text-center text-5xl font-bold m-4">
-              {pkg.appName}
-            </h1>
-            <p className="text-center text-xl opacity-60 m-4">
-              {pkg.appSubtitle}
-            </p>
+            <h1 className="text-center text-5xl font-bold m-4">涂鸦扩散</h1>
+            <p className="text-center text-xl opacity-60 m-4">使用 AI 将您的草图转换为精致的图像</p>
           </hgroup>
 
           <Canvas
